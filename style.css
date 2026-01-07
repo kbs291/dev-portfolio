@@ -23,3 +23,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* custom styles */
+.wrapper {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
