@@ -34,11 +34,39 @@ img {
   margin: 0 auto;
 }
 
+header {
+  height: 100dvh;
+  background: #2A7B9B;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#051937), color-stop(#002967), color-stop(#00389a), color-stop(#2b43cc), to(#6049fd));
+  background-image: -o-linear-gradient(left bottom, #051937, #002967, #00389a, #2b43cc, #6049fd);
+  background-image: linear-gradient(to right top, #051937, #002967, #00389a, #2b43cc, #6049fd);
+
+  nav {
+    font-size: 1rem;
+    padding: 26px 0;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      gap: 1.5rem;
+    }
+
+    a {
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 200;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+}
+
 footer {
   font-size: 0.7rem;
   font-weight: 200;
   letter-spacing: 1px;
-  padding: 2rem 0;
+  padding: 2rem 0.5rem;
   text-align: center;
   color: #fff;
   background-color: #051937;
